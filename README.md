@@ -9,7 +9,7 @@ This project is inspired by Vladimir Chernykh coreml-performance project for iOS
 1. clone the repository
 2. open the project
 3. select the project
-4. Go to Signing and capabilities
+4. Go to Signing and capabilities and select your personal account
 5. Build the project
 6. Run the project
 7. Click the button to start the test
