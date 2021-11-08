@@ -43,10 +43,9 @@ class ViewController: NSViewController {
                     print("RPS \(device) : \(1 / latency)")
                     print()
                     summary += "\(modelName)\n"
-                    summary += "Latency  \(device) : \(latency)  \n"
-                    summary += "RPS  \(device) : \(1/latency) \n\n"
+                    summary += "Latency   \(device) : \(latency)  \n"
+                    summary += "Run/Sec  \(device) : \(1/latency) \n\n"
                 }
-                print("done testing")
                 sender.title = "Done!";
             }
             self.resultSummary = NSTextField(string: summary);
@@ -56,7 +55,6 @@ class ViewController: NSViewController {
             let width = NSLayoutConstraint(item: self.resultSummary!, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 400);
             let height = NSLayoutConstraint(item: self.resultSummary!, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 245);
             self.view.addConstraints([align, width, height]);
-
         }
     }
     
@@ -109,7 +107,6 @@ class ViewController: NSViewController {
         }
         let end = CACurrentMediaTime()
         let elapsed = end - start
-        // print("elapsed time: \(elapsed)")
         return elapsed / Double(numIter)
     }
     
