@@ -2,7 +2,17 @@
 
 ## M1 Macbook Air
 
+* 4e / 4p CPU
+* 8 GPU
+* 16G memory
+* 512 SSD
+
 ## M1 Max Macbook Pro
+
+* 2e / 8p CPU
+* 24 GPU
+* 32G memory
+* 2TB SSD
 
 ## Results
 
