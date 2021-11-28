@@ -45,6 +45,9 @@ RPS CPU : 59.962183649637694
 ## Observations
 
 For some odd reason, the results for Apple Neural Engine on M1 Max is slower than M1. I ran the test multiple times and macbookair ANE consistently beat the newer M1 Max. I'm guessing it's a bug in CoreML. When I run on MBP, XCode spits out this error.
+
+Macbook Air does not get this error when I run it. I've compared the build settings on both systems and they are the same. Hopefully Apple will fix this bug soon and I can run the test again to get better resutls.
+
 <pre>
 2021-11-27 22:08:35.806852-0500 MLMacosPerf[628:7282] Metal API Validation Enabled
 2021-11-27 22:08:35.978426-0500 MLMacosPerf[628:7282] H11ANEDevice::H11ANEDeviceOpen IOServiceOpen failed result= 0xe00002e2
