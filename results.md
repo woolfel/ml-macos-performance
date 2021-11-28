@@ -29,3 +29,15 @@ densenet121_keras_applications
 Latency CPU : 0.01709440333333623
 RPS CPU : 58.49867822235565
 
+### M1 Max Macbook Pro
+densenet121_keras_applications
+Latency ANE : 0.0020508153333333324
+RPS ANE : 487.610943679961
+
+densenet121_keras_applications
+Latency GPU : 0.010757046333333336
+RPS GPU : 92.96232153442118
+
+densenet121_keras_applications
+Latency CPU : 0.01667717783333333
+RPS CPU : 59.962183649637694
