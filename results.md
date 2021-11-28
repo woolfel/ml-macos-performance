@@ -41,3 +41,16 @@ RPS GPU : 92.96232153442118
 densenet121_keras_applications
 Latency CPU : 0.01667717783333333
 RPS CPU : 59.962183649637694
+
+## Observations
+
+For some odd reason, the results for Apple Neural Engine on M1 Max is slower than M1. I ran the test multiple times and macbookair ANE consistently beat the newer M1 Max. I'm guessing it's a bug in CoreML. When I run on MBP, XCode spits out this error.
+<pre>
+2021-11-27 22:08:35.806852-0500 MLMacosPerf[628:7282] Metal API Validation Enabled
+2021-11-27 22:08:35.978426-0500 MLMacosPerf[628:7282] H11ANEDevice::H11ANEDeviceOpen IOServiceOpen failed result= 0xe00002e2
+2021-11-27 22:08:35.978460-0500 MLMacosPerf[628:7282] H11ANEDevice::H11ANEDeviceOpen kH11ANEUserClientCommand_DeviceOpen call failed result=0xe00002bc
+2021-11-27 22:08:35.978472-0500 MLMacosPerf[628:7282] Error opening LB - status=0xe00002bc.. Skipping LB and retrying
+2021-11-27 22:08:36.208392-0500 MLMacosPerf[628:7282] H11ANEDevice::H11ANEDeviceOpen IOServiceOpen failed result= 0xe00002e2
+2021-11-27 22:08:36.208419-0500 MLMacosPerf[628:7282] H11ANEDevice::H11ANEDeviceOpen kH11ANEUserClientCommand_DeviceOpen call failed result=0xe00002bc
+2021-11-27 22:08:36.208432-0500 MLMacosPerf[628:7282] Error opening LB - status=0xe00002bc.. Skipping LB and retrying
+</pre>
