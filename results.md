@@ -74,5 +74,8 @@ densenet121_keras_applications
 Latency CPU : 0.016688692041666685
 RPS CPU : 59.92081329700964
 
+## Software Versions
+
 XCode 12.3.1 (12E500a)
+
 MacOS Monterey 12.3.1
