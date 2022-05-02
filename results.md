@@ -57,3 +57,19 @@ Macbook Air does not get this error when I run it. I've compared the build setti
 2021-11-27 22:08:36.208419-0500 MLMacosPerf[628:7282] H11ANEDevice::H11ANEDeviceOpen kH11ANEUserClientCommand_DeviceOpen call failed result=0xe00002bc
 2021-11-27 22:08:36.208432-0500 MLMacosPerf[628:7282] Error opening LB - status=0xe00002bc.. Skipping LB and retrying
 </pre>
+
+# May 2, 2022 Update
+
+It appears the latest version of XCode and MacOS fixed the Metal Validation error. I reran the test on M1Max Macbook Pro. ANE on MacbookAir is still a bit faster. The fix definitely improved ANE performance on M1Max.
+
+densenet121_keras_applications
+Latency ANE : 0.0018782001250000064
+RPS ANE : 532.4246264758376
+
+densenet121_keras_applications
+Latency GPU : 0.00975093989583334
+RPS GPU : 102.55421638146991
+
+densenet121_keras_applications
+Latency CPU : 0.016688692041666685
+RPS CPU : 59.92081329700964
