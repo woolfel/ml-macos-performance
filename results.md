@@ -76,7 +76,7 @@ RPS CPU : 59.92081329700964
 
 # Jan 17, 2023 Update
 
-The latest version of XCode and Mac has improved the performance of ANE
+The latest version of XCode and Mac has improved the performance of ANE. It went from 532 > 670 for a 25% improvement.
 
 densenet121_keras_applications
 Latency   ANE : 0.0014909637291711988  
