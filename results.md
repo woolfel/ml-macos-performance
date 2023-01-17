@@ -74,8 +74,32 @@ densenet121_keras_applications
 Latency CPU : 0.016688692041666685
 RPS CPU : 59.92081329700964
 
+# Jan 17, 2023 Update
+
+The latest version of XCode and Mac has improved the performance of ANE
+
+densenet121_keras_applications
+Latency   ANE : 0.0014909637291711988  
+Run/Sec  ANE : 670.7071275006018 
+
+densenet121_keras_applications
+Latency   GPU : 0.009684643208333  
+Run/Sec  GPU : 103.25625616641877 
+
+densenet121_keras_applications
+Latency   CPU : 0.01708390016666817  
+Run/Sec  CPU : 58.53464315783504 
+
 ## Software Versions
+
+### Previous Versions
 
 XCode 12.3.1 (12E500a)
 
 MacOS Monterey 12.3.1
+
+### Current Versions
+
+XCode 14.2 (14C18)
+
+MacOS Ventura 13.1
