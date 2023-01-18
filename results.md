@@ -80,15 +80,15 @@ The latest version of XCode and Mac has improved the performance of ANE. It went
 
 densenet121_keras_applications
 Latency   ANE : 0.0014909637291711988
-Run/Sec  ANE : 670.7071275006018 
+RPS  ANE : 670.7071275006018 
 
 densenet121_keras_applications
 Latency   GPU : 0.009684643208333
-Run/Sec  GPU : 103.25625616641877 
+RPS  GPU : 103.25625616641877 
 
 densenet121_keras_applications
 Latency   CPU : 0.01708390016666817
-Run/Sec  CPU : 58.53464315783504 
+RPS  CPU : 58.53464315783504 
 
 ## Software Versions
 
