@@ -1,0 +1,13 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "simple apple detector using Roboflow chicken dataset",
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.createml.app.tag" : "99.2",
+    "com.apple.createml.version" : "13.1.0",
+    "com.apple.coreml.model.preview.type" : "objectDetector",
+    "iterations" : "6000",
+    "com.apple.createml.app.version" : "4.0"
+  },
+  "MLModelAuthorKey" : "Peter Lin",
+  "MLModelLicenseKey" : "--"
+}

@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D06DA1C92978372200E64E61 /* chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D06DA1C82978372200E64E61 /* chicken.jpg */; };
+		D0708F1D27446F3000B26B9B /* densenet121_keras_applications.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0C37BA1272856FE000EECA9 /* densenet121_keras_applications.mlmodel */; };
 		D0C37B89272795BA000EECA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C37B88272795BA000EECA9 /* AppDelegate.swift */; };
 		D0C37B8B272795BA000EECA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C37B8A272795BA000EECA9 /* ViewController.swift */; };
 		D0C37B8D272795BB000EECA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C37B8C272795BB000EECA9 /* Assets.xcassets */; };
 		D0C37B90272795BB000EECA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C37B8E272795BB000EECA9 /* Main.storyboard */; };
 		D0C37B99272795D9000EECA9 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C37B98272795D9000EECA9 /* CoreML.framework */; platformFilter = maccatalyst; };
 		D0C37B9B2727A66D000EECA9 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C37B9A2727A66D000EECA9 /* Predictor.swift */; };
-		D0C37BA2272856FE000EECA9 /* densenet121_keras_applications.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0C37BA1272856FE000EECA9 /* densenet121_keras_applications.mlmodel */; };
 		D0C37BAD27285839000EECA9 /* test01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0C37BA327285839000EECA9 /* test01.jpg */; };
 		D0C37BAE27285839000EECA9 /* test08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0C37BA427285839000EECA9 /* test08.jpg */; };
 		D0C37BAF27285839000EECA9 /* test02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0C37BA527285839000EECA9 /* test02.jpg */; };
@@ -24,9 +25,11 @@
 		D0C37BB427285839000EECA9 /* test05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0C37BAA27285839000EECA9 /* test05.jpg */; };
 		D0C37BB527285839000EECA9 /* test07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0C37BAB27285839000EECA9 /* test07.jpg */; };
 		D0C37BB627285839000EECA9 /* test09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0C37BAC27285839000EECA9 /* test09.jpg */; };
+		D0D43E9A297829290018D9A9 /* ChickenDetector.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = D0D43E99297829290018D9A9 /* ChickenDetector.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D06DA1C82978372200E64E61 /* chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chicken.jpg; path = Data/custom/1000/chicken.jpg; sourceTree = "<group>"; };
 		D0C37B85272795BA000EECA9 /* MLMacosPerf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLMacosPerf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C37B88272795BA000EECA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0C37B8A272795BA000EECA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		D0C37BAB27285839000EECA9 /* test07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test07.jpg; path = Data/custom/1000/test07.jpg; sourceTree = "<group>"; };
 		D0C37BAC27285839000EECA9 /* test09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test09.jpg; path = Data/custom/1000/test09.jpg; sourceTree = "<group>"; };
 		D0C37BB72728588D000EECA9 /* densenet121_keras_applications.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = densenet121_keras_applications.mlmodel; path = Models/densenet121_keras_applications.mlmodel; sourceTree = "<group>"; };
+		D0D43E99297829290018D9A9 /* ChickenDetector.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = ChickenDetector.mlpackage; path = Models/ChickenDetector.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 		D0C37B7C272795BA000EECA9 = {
 			isa = PBXGroup;
 			children = (
+				D06DA1C82978372200E64E61 /* chicken.jpg */,
+				D0D43E99297829290018D9A9 /* ChickenDetector.mlpackage */,
 				D0C37BB72728588D000EECA9 /* densenet121_keras_applications.mlmodel */,
 				D0C37BA327285839000EECA9 /* test01.jpg */,
 				D0C37BA527285839000EECA9 /* test02.jpg */,
@@ -172,6 +178,7 @@
 				D0C37BAD27285839000EECA9 /* test01.jpg in Resources */,
 				D0C37BAE27285839000EECA9 /* test08.jpg in Resources */,
 				D0C37BAF27285839000EECA9 /* test02.jpg in Resources */,
+				D06DA1C92978372200E64E61 /* chicken.jpg in Resources */,
 				D0C37BB027285839000EECA9 /* test04.jpg in Resources */,
 				D0C37BB127285839000EECA9 /* test03.jpg in Resources */,
 				D0C37BB227285839000EECA9 /* test10.jpg in Resources */,
@@ -191,10 +198,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0708F1D27446F3000B26B9B /* densenet121_keras_applications.mlmodel in Sources */,
+				D0D43E9A297829290018D9A9 /* ChickenDetector.mlpackage in Sources */,
 				D0C37B8B272795BA000EECA9 /* ViewController.swift in Sources */,
 				D0C37B9B2727A66D000EECA9 /* Predictor.swift in Sources */,
 				D0C37B89272795BA000EECA9 /* AppDelegate.swift in Sources */,
-				D0C37BA2272856FE000EECA9 /* densenet121_keras_applications.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +344,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T2YG842FN2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -346,6 +354,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.woolfel.coremlperf.MLMacosPerf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,7 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T2YG842FN2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -373,6 +382,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.woolfel.coremlperf.MLMacosPerf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
