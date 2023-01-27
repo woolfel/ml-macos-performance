@@ -14,6 +14,12 @@
 * 32G memory
 * 2TB SSD
 
+## M2 Max Macbook Pro
+* 4e / 8p CPU
+* 38 GPU
+* 96G memory
+* 2TB SSD
+
 ## Results
 
 ### M1 Macbook Air
@@ -89,6 +95,32 @@ RPS  GPU : 103.25625616641877
 densenet121_keras_applications
 Latency   CPU : 0.01708390016666817
 RPS  CPU : 58.53464315783504 
+
+# Jan 27, 2023 Update
+
+densenet121_keras_applications
+Latency ANE : 0.0012743692083333827
+RPS ANE : 784.7019478034924
+
+densenet121_keras_applications
+Latency GPU : 0.008270947500000033
+RPS GPU : 120.90513209036763
+
+densenet121_keras_applications
+Latency CPU : 0.015347813229166719
+RPS CPU : 65.15586195039286
+
+ChickenDetector
+Latency ANE : 0.001355774541666733
+RPS ANE : 737.5857631687355
+
+ChickenDetector
+Latency GPU : 0.0018289530104167397
+RPS GPU : 546.7609032624316
+
+ChickenDetector
+Latency CPU : 0.011537113656250085
+RPS CPU : 86.67679194252045
 
 ## Software Versions
 
