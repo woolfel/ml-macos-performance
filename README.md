@@ -16,7 +16,7 @@ This project is inspired by Vladimir Chernykh coreml-performance project for iOS
 
 ## Results
 
-[results.md] Results on M1 MBA, M1Max BMP, M2Max MBP
+[./results.md] Results on M1 MBA, M1Max BMP, M2Max MBP
 
 ## Tips
 
