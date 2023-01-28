@@ -122,6 +122,32 @@ ChickenDetector
 Latency CPU : 0.011537113656250085
 RPS CPU : 86.67679194252045
 
+## Jan 28, 2023 Update - M1Max 24GPU/32G
+
+densenet121_keras_applications
+Latency ANE : 0.001397986552083239
+RPS ANE : 715.3144631540475
+
+densenet121_keras_applications
+Latency GPU : 0.009643329708334022
+RPS GPU : 103.69862176710326
+
+densenet121_keras_applications
+Latency CPU : 0.016989599593749516
+RPS CPU : 58.85953900690518
+
+ChickenDetector
+Latency ANE : 0.0016178203229164864
+RPS ANE : 618.115612614678
+
+ChickenDetector
+Latency GPU : 0.002408142052083349
+RPS GPU : 415.25789524537095
+
+ChickenDetector
+Latency CPU : 0.013342300875000547
+RPS CPU : 74.9495914811589
+
 ## Software Versions
 
 ### Previous Versions
