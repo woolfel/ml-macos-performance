@@ -96,7 +96,7 @@ densenet121_keras_applications
 Latency   CPU : 0.01708390016666817
 RPS  CPU : 58.53464315783504 
 
-# Jan 27, 2023 Update
+# Jan 27, 2023 Update - M2Max 38GPU/96G
 
 densenet121_keras_applications
 Latency ANE : 0.0012743692083333827
