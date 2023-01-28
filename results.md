@@ -20,6 +20,10 @@
 * 96G memory
 * 2TB SSD
 
+## Densenet 121
+
+DenseNet121 model was originally converted from tensorflow keras. It has 8.1 million parameters and 121 layers. The model is bigger than M1 or M2 cache, which means a lot of time is spent shuttling data to the CPU.
+
 ## Results
 
 ### M1 Macbook Air
@@ -122,31 +126,31 @@ ChickenDetector
 Latency CPU : 0.011537113656250085
 RPS CPU : 86.67679194252045
 
-## Jan 28, 2023 Update - M1Max 24GPU/32G
+# Jan 28, 2023 Update - M1Max 24GPU/32G
 
 densenet121_keras_applications
-Latency ANE : 0.001397986552083239
-RPS ANE : 715.3144631540475
+Latency ANE : 0.001407081708332953
+RPS ANE : 710.6907822607935
 
 densenet121_keras_applications
-Latency GPU : 0.009643329708334022
-RPS GPU : 103.69862176710326
+Latency GPU : 0.009703234135416097
+RPS GPU : 103.05842217597048
 
 densenet121_keras_applications
-Latency CPU : 0.016989599593749516
-RPS CPU : 58.85953900690518
+Latency CPU : 0.016863174791667008
+RPS CPU : 59.30081448803776
 
 ChickenDetector
-Latency ANE : 0.0016178203229164864
-RPS ANE : 618.115612614678
+Latency ANE : 0.0015873758541665665
+RPS ANE : 629.9705248603763
 
 ChickenDetector
-Latency GPU : 0.002408142052083349
-RPS GPU : 415.25789524537095
+Latency GPU : 0.002397619229166594
+RPS GPU : 417.08040536011106
 
 ChickenDetector
-Latency CPU : 0.013342300875000547
-RPS CPU : 74.9495914811589
+Latency CPU : 0.013234461333333456
+RPS CPU : 75.56030992219637
 
 ## Software Versions
 
