@@ -14,6 +14,16 @@
 * 32G memory
 * 2TB SSD
 
+## M2 Max Macbook Pro
+* 4e / 8p CPU
+* 38 GPU
+* 96G memory
+* 2TB SSD
+
+## Densenet 121
+
+DenseNet121 model was originally converted from tensorflow keras. It has 8.1 million parameters and 121 layers. The model is bigger than M1 or M2 cache, which means a lot of time is spent shuttling data to the CPU.
+
 ## Results
 
 ### M1 Macbook Air
@@ -89,6 +99,58 @@ RPS  GPU : 103.25625616641877
 densenet121_keras_applications
 Latency   CPU : 0.01708390016666817
 RPS  CPU : 58.53464315783504 
+
+# Jan 27, 2023 Update - M2Max 38GPU/96G
+
+densenet121_keras_applications
+Latency ANE : 0.0012743692083333827
+RPS ANE : 784.7019478034924
+
+densenet121_keras_applications
+Latency GPU : 0.008270947500000033
+RPS GPU : 120.90513209036763
+
+densenet121_keras_applications
+Latency CPU : 0.015347813229166719
+RPS CPU : 65.15586195039286
+
+ChickenDetector
+Latency ANE : 0.001355774541666733
+RPS ANE : 737.5857631687355
+
+ChickenDetector
+Latency GPU : 0.0018289530104167397
+RPS GPU : 546.7609032624316
+
+ChickenDetector
+Latency CPU : 0.011537113656250085
+RPS CPU : 86.67679194252045
+
+# Jan 28, 2023 Update - M1Max 24GPU/32G
+
+densenet121_keras_applications
+Latency ANE : 0.001407081708332953
+RPS ANE : 710.6907822607935
+
+densenet121_keras_applications
+Latency GPU : 0.009703234135416097
+RPS GPU : 103.05842217597048
+
+densenet121_keras_applications
+Latency CPU : 0.016863174791667008
+RPS CPU : 59.30081448803776
+
+ChickenDetector
+Latency ANE : 0.0015873758541665665
+RPS ANE : 629.9705248603763
+
+ChickenDetector
+Latency GPU : 0.002397619229166594
+RPS GPU : 417.08040536011106
+
+ChickenDetector
+Latency CPU : 0.013234461333333456
+RPS CPU : 75.56030992219637
 
 ## Software Versions
 

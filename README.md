@@ -14,6 +14,10 @@ This project is inspired by Vladimir Chernykh coreml-performance project for iOS
 6. Run the project
 7. Click the button to start the test
 
+## Results
+
+[https://github.com/woolfel/ml-macos-performance/blob/main/results.md] Results on M1 MBA, M1Max BMP, M2Max MBP
+
 ## Tips
 
 If the project doesn't build for you, make sure you have the latest XCode.
