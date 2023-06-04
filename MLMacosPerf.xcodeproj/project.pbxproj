@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D02F52F82A2CC645002D734C /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02F52F72A2CC645002D734C /* Vision.framework */; };
+		D02F52FC2A2CF928002D734C /* rock1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D02F52FB2A2CF928002D734C /* rock1.jpg */; };
+		D02F52FE2A2D12EF002D734C /* rockpaperscissor_small_wpreview.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = D02F52FD2A2D12EF002D734C /* rockpaperscissor_small_wpreview.mlpackage */; };
 		D06DA1C92978372200E64E61 /* chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D06DA1C82978372200E64E61 /* chicken.jpg */; };
 		D0708F1D27446F3000B26B9B /* densenet121_keras_applications.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0C37BA1272856FE000EECA9 /* densenet121_keras_applications.mlmodel */; };
 		D0C37B89272795BA000EECA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C37B88272795BA000EECA9 /* AppDelegate.swift */; };
@@ -29,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D02F52F72A2CC645002D734C /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
+		D02F52FB2A2CF928002D734C /* rock1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rock1.jpg; path = Data/custom/1000/rock1.jpg; sourceTree = "<group>"; };
+		D02F52FD2A2D12EF002D734C /* rockpaperscissor_small_wpreview.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = rockpaperscissor_small_wpreview.mlpackage; path = Models/rockpaperscissor_small_wpreview.mlpackage; sourceTree = "<group>"; };
 		D06DA1C82978372200E64E61 /* chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chicken.jpg; path = Data/custom/1000/chicken.jpg; sourceTree = "<group>"; };
 		D0C37B85272795BA000EECA9 /* MLMacosPerf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLMacosPerf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C37B88272795BA000EECA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02F52F82A2CC645002D734C /* Vision.framework in Frameworks */,
 				D0C37B99272795D9000EECA9 /* CoreML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,9 +75,11 @@
 		D0C37B7C272795BA000EECA9 = {
 			isa = PBXGroup;
 			children = (
-				D06DA1C82978372200E64E61 /* chicken.jpg */,
+				D02F52FD2A2D12EF002D734C /* rockpaperscissor_small_wpreview.mlpackage */,
 				D0D43E99297829290018D9A9 /* ChickenDetector.mlpackage */,
 				D0C37BB72728588D000EECA9 /* densenet121_keras_applications.mlmodel */,
+				D06DA1C82978372200E64E61 /* chicken.jpg */,
+				D02F52FB2A2CF928002D734C /* rock1.jpg */,
 				D0C37BA327285839000EECA9 /* test01.jpg */,
 				D0C37BA527285839000EECA9 /* test02.jpg */,
 				D0C37BA727285839000EECA9 /* test03.jpg */,
@@ -112,6 +121,7 @@
 		D0C37B97272795D9000EECA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D02F52F72A2CC645002D734C /* Vision.framework */,
 				D0C37B98272795D9000EECA9 /* CoreML.framework */,
 			);
 			name = Frameworks;
@@ -179,6 +189,7 @@
 				D0C37BAE27285839000EECA9 /* test08.jpg in Resources */,
 				D0C37BAF27285839000EECA9 /* test02.jpg in Resources */,
 				D06DA1C92978372200E64E61 /* chicken.jpg in Resources */,
+				D02F52FC2A2CF928002D734C /* rock1.jpg in Resources */,
 				D0C37BB027285839000EECA9 /* test04.jpg in Resources */,
 				D0C37BB127285839000EECA9 /* test03.jpg in Resources */,
 				D0C37BB227285839000EECA9 /* test10.jpg in Resources */,
@@ -201,6 +212,7 @@
 				D0708F1D27446F3000B26B9B /* densenet121_keras_applications.mlmodel in Sources */,
 				D0D43E9A297829290018D9A9 /* ChickenDetector.mlpackage in Sources */,
 				D0C37B8B272795BA000EECA9 /* ViewController.swift in Sources */,
+				D02F52FE2A2D12EF002D734C /* rockpaperscissor_small_wpreview.mlpackage in Sources */,
 				D0C37B9B2727A66D000EECA9 /* Predictor.swift in Sources */,
 				D0C37B89272795BA000EECA9 /* AppDelegate.swift in Sources */,
 			);
