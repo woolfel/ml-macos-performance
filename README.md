@@ -28,7 +28,7 @@ If the project doesn't build for you, make sure you have the latest XCode.
 
 # What does the benchmark do?
 
-The benchmark loads densenet121 model in model folder. It uses an image from the data folder to run predict. The benchmark runs predict 1000 times and measures the elapsed time. The summary printout will show the performance for each type of device.
+The benchmark loads densenet121 model in model folder. It uses an image from the data folder to run predict. The benchmark runs predict 1000 times and measures the elapsed time. The summary printout will show the performance for each type of device. The benchmark has 3 models: densenet, chicken detector and rock paper scissor. Densenet was converted from google's pretrain model. Chicken was trained with Apple createml tool. Rock paper scissor was trained with tensorflow 2.10 on Macbook and converted with coremltools.
 
 ANE - Apple Neural Engine
 
